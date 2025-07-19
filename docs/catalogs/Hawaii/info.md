@@ -22,3 +22,5 @@ A deep learning-enhanced earthquake catalog for the Hawaiian Islands volcanic se
 ## 3D Visualization
 
 <iframe src="../catalog.html" width="100%" height="600px" style="border: 1px solid #ddd;"></iframe>
+
+**[Open 3D in new tab](catalog.html)**
