@@ -1,0 +1,34 @@
+name: documentation
+
+on:
+  push:
+    branches: 
+      - master
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    # runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: true
+          lfs: false
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: 3.x
+
+      - run: pip install mkdocs-material mkdocs-jupyter mkdocs-monorepo-plugin mkdocs-bibtex mkdocs-redirects
+
+      - run: mkdocs gh-deploy --force
+      
+      # - uses: conda-incubator/setup-miniconda@v2
+      #   with:
+      #     miniconda-version: "latest"
+      #     # activate-environment: mkdocs
+      # - run: conda install jinja2
+      # - run: conda install mkdocs mkdocs-material mkdocs-jupyter mkdocs-exclude -c conda-forge
+      # - run: $CONDA/bin/pip install mkdocs-redirects
+      # - run: $CONDA/bin/mkdocs gh-deploy --force
