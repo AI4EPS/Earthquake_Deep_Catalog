@@ -6,7 +6,7 @@ A deep learning-enhanced earthquake catalog for the Tonga-Kermadec subduction zo
 
 ## References
 
-[Xi, Z., Wei, S. S., Zhu, W., Beroza, G. C., Jie, Y., & Saloor, N. (2024). Deep learning for deep earthquakes: insights from OBS observations of the Tonga subduction zone. *Geophysical Journal International*, 238(2), 1073-1088. Oxford University Press.](https://academic.oup.com/gji/article/238/2/1073/7689220)
+[Xi, Z., Wei, S. S., Zhu, W., Beroza, G. C., Jie, Y., & Saloor, N. (2024). Deep learning for deep earthquakes: insights from OBS observations of the Tonga subduction zone. Geophysical Journal International, 238(2), 1073-1088.](https://academic.oup.com/gji/article/238/2/1073/7689220)
 
 ```bibtex
 @article{xi2024deep,
