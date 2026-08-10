@@ -28,7 +28,7 @@ plugins:
   #       'earthquakecatalog.md': 'https://ai4eps.github.io/Earthquake-Deep-Catalog/'
   #       'catalog.md': 'https://ai4eps.github.io/Earthquake-Deep-Catalog/'
 
-# extra:
-#   analytics:
-#     provider: google
-#     property: G-69DX3B35RK
+extra:
+  analytics:
+    provider: google
+    property: G-YHG7YJX2P6
